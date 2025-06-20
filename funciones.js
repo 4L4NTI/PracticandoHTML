@@ -1,5 +1,5 @@
 
-const whitespace = document.getElementById("whitespace").innerHTML="";
+const whitespace = document.getElementById("whitespace").innerHTML;
 console.log(whitespace);
 
 
