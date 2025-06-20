@@ -44,7 +44,8 @@
        <strong>3° img : </strong> <em>es para colocar imagenes ej</em> <br>
        <img width="130" height="130" 
        src="https://th.bing.com/th/id/OIP.aHtOIawB7o2okrv96Jqp-QHaNK?rs=1&pid=ImgDetMain&cb=idpwebp1&o=7&rm=3" 
-       alt="Imagen de escritorio" /><br>
+       alt="Imagen de escritorio"
+       title="Estoes perfecto para poner texto sobre imagenes" /><br>
        <strong>5° input : <em>es un campo para rellenar ej en un formulario;</em></strong><br>
        <input type="text"  /><br>
        <strong>6° a :es un enlase ej; <em></em></strong><br>
@@ -114,7 +115,20 @@
 
 <time datetime="2016-01-20">20 Enero 2016</time>
 
-    <video src=""></video>
+<video src="rabbit320.webm" controls><!--este ejemplo no funciona -->
+  <p>
+    Tu navegador no soporta HTML5 video. Aquí está el
+    <a href="rabbit320.webm">enlace del video</a>.
+  </p>
+</video>
+<video controls>
+  <source src="rabbit320.mp4" type="video/mp4" />
+  <source src="rabbit320.webm" type="video/webm" />
+  <p>
+    Su navegador no soporta video HTML5. Aquí hay un
+    <a href="rabbit320.mp4">enlace al video</a>.
+  </p>
+</video>
     <button></button>
     </main>
        <footer>
