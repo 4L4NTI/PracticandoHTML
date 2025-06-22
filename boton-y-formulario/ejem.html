@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejem</title>
+</head>
+<body>
+    <form action="./payment_page" method="get">
+  <h2>Regístrese para la reunión</h2>
+  <p>
+    <fieldset>
+      <legend>Elija el tipo de habitación de hotel (obligatorio):</legend>
+      <div>
+        <input type="radio" id="hotelChoice1" name="hotel" value="economy" checked />
+        <label for="hotelChoice1">Económico (+$0)</label>
+
+        <input type="radio" id="hotelChoice2" name="hotel" value="superior" />
+        <label for="hotelChoice2">Superior (+$50)</label>
+
+        <input type="radio" id="hotelChoice3" name="hotel" value="penthouse" disabled />
+        <label for="hotelChoice3">Penthouse (+$150)</label>
+      </div>
+    </fieldset>
+  </p>
+  <p>
+    <fieldset>
+      <legend>Elija las clases a las que asistir:</legend>
+      <div>
+        <input type="checkbox" id="yoga" name="yoga" />
+        <label for="yoga">Yoga (+$10)</label>
+
+        <input type="checkbox" id="coffee" name="coffee" />
+        <label for="coffee">Tostado de café (+$20)</label>
+
+        <input type="checkbox" id="balloon" name="balloon" />
+        <label for="balloon">Arte de animales con globos (+$5)</label>
+      </div>
+    </fieldset>
+  </p>
+  <p>
+    <label for="transport">¿Cómo va a llegar hasta aquí?:</label>
+    <select name="transport" id="transport">
+      <option value="">--Por favor, elija una opción--</option>
+      <option value="plane">Avión</option>
+      <option value="bike">Bicicleta</option>
+      <option value="walk">Caminar</option>
+      <option value="bus">Autobús</option>
+      <option value="train">Tren</option>
+      <option value="jetPack">Jet pack</option>
+    </select>
+  </p>
+  <p>
+    <label for="comments">Algún comentario adicional:</label>
+    <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+  </p>
+  <p>
+    <button>Continuar con el pago</button>
+  </p>
+</form>
+
+
+</body>
+</html>
