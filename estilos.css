@@ -1,6 +1,47 @@
+h1{
+    color: red;
+}
+
+p,li{
+  color: green;
+}
+
+li + p{
+     font-size: 200%;
+}
+
+/*li {
+  list-style-type:; /*esto te cambia el tipo de lista ,de esta manera se ponen letras*/
+
+a:link{
+    color: pink;
+}
+
+a:visited{
+    color: green;
+}
+a:hover{
+    text-decoration: none;
+}
+
+li.special, span.special {
+  color: orange;
+  font-weight: bold;
+}
+li em {
+      color: rebeccapurple;
+}
+
+
 
 .co{
     border: 100%;
     background: black;
     background-color: brown;
 }
+
+span {
+  border: 1px solid black;
+  background-color: lime;
+}
+
