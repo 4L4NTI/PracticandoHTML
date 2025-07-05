@@ -18,31 +18,60 @@ p {
 .box {
   padding: 10px;
   width: calc(60% - 30px);
-  background-color: rebeccapurple;
+  background-color: rgb(51, 150, 153);
   color: white;
 }
-.g{
+.g{ 
     color: red;
-    font-size: medium;
-    border: 5px solid black;
-    width: 50px;
-    height: auto;
+    border: 3px solid black;
+    width: 230px;
+    height: 230px;
 }
 .boxs {
     background-image: url('ruta/a/tu/imagen.jpg');
     margin: 30px;
-  width: 100px;
-  height: 100px;
-  background-color: rebeccapurple;
-  transform: rotate(0.8turn);
+  width: 250px;
+  height: 250px;
+  background-color: rgb(151, 25, 134);
+  transform: rotate(45deg);
 }
 body {
-  background-color: rgb(223, 41, 71);
+  font:
+    1em/150% Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 33em;
 }
 
 @media (min-width: 50em) {
+  /*esto es para que cuando la pantalla se mas chica se cambie de color se puede usar para ser responsiv*/
 body {
     background-color: rgb(5, 5, 41);
+      font-size: 130%;
   }
 }
+img{
+  background-color: red;
+  padding: 15px 10px 10px 10px;
+  background: red url(maxresdefault.jpg) 10px 10px repeat-x fixed;
 
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+div p,
+#id:first-line {
+  background-color: red;
+  border-radius: 3px;
+}
+div p {
+  margin: 0;
+  padding: 1em;
+}
+div p + p {
+  padding-top: 0;
+}
